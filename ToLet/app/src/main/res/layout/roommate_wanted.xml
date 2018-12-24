@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mha"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorR">
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/back" />
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:text="Details"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:src="@drawable/bed"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="429dp"
+            android:layout_height="350dp">
+
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="385dp"
+                android:paddingTop="10dp"
+                android:text="    Only For Girls
+    Without Food
+    Book : No
+    Location : Sector#02, Uttara, Dhaka-1230
+    Bedroom : 01
+    Bathroom : 01
+    Price : 8000
+    Facilities :
+    Food : No
+    Parking : Yes
+    Internet : No
+    Cleaning : No
+
+    No Image Available "
+                android:textColor="@color/colorrR"
+                android:textSize="18dp"
+
+
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/colorR"
+            android:text="INTRESTED" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="CALL ME "
+            android:textColor="@color/colorR" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
